@@ -1,0 +1,17 @@
+<?php
+
+$host="localhost";
+$database_name="school";
+$database_username="root";
+$database_pass="";
+
+$conn =mysqli_connect($host,$database_username,$database_pass,$database_name);
+
+if($conn){
+    echo "Cnnection Success";
+}else{
+    echo "Connection Fail";
+}
+
+
+?>
